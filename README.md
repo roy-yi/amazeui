@@ -20,8 +20,8 @@ $q(selector).val(); //selector: 和jQuery的查找器一样
 </script>
 ```
 #####Attention: This function is based on jQuery
-#####To fix the bug that when using JavaScript to set value to \<select data-am-selected\> of AmazeUI, it will display as multiple select.
-#####How to use?
+######To fix the bug that when using JavaScript to set value to \<select data-am-selected\> of AmazeUI, it will display as multiple select.
+###How to use?
 $q(selector).val(); //selector: jQuery selector, eg: $("#mySelect").val("1");
 ####For Example：
 ```javascript
