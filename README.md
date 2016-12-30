@@ -15,6 +15,7 @@ $q(selector).val(); //selector: 和jQuery的选择器一样
 ```javascript
 //JavaScript
 <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/amui-select-fit4ios.js"></script>
 <script type=="text/javascript">
   $q("#gender").val("1");
 </script>
@@ -37,6 +38,7 @@ $q(selector).val(); //selector: jQuery selector, eg: $("#mySelect").val("1");
 ```javascript
 //JavaScript
 <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/amui-select-fit4ios.js"></script>
 <script type=="text/javascript">
   $q("#gender").val("1");
 </script>
