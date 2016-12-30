@@ -1,4 +1,4 @@
-# amazeui
+# AmazeUI data-am-selected bug fix
 #####注意：此方法仅可在jQuery下使用。
 #####解决AmazeUI在IOS下，JS动态给<select data-am-selected>赋值时出现多选的BUG。
 #####使用方法：
