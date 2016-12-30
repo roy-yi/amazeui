@@ -1,4 +1,4 @@
-# AmazeUI data-am-selected bug fix
+#解决AmazeUI 单选框(data-am-selected)的BUG
 --
 #####注意：此方法仅可在jQuery下使用
 解决AmazeUI在IOS下，JS动态给\<select data-am-selected\>赋值时出现多选的BUG
@@ -19,6 +19,10 @@ $q(selector).val(); //selector: 和jQuery的查找器一样
   $q("#gender").val("1");
 </script>
 ```
+
+
+#AmazeUI data-am-selected bug fix
+--
 #####Attention: This function is based on jQuery
 To fix the bug that when using JavaScript to set value to \<select data-am-selected\> of AmazeUI, it will display as multiple select.
 ####How to use?
