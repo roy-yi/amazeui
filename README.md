@@ -19,8 +19,7 @@ $q(selector).val(); //selector: 和jQuery的选择器一样
   $q("#gender").val("1");
 </script>
 ```
-
-
+<br/><br/>
 #AmazeUI data-am-selected BUG fix
 --
 ####!!!Attention: This function is based on jQuery
