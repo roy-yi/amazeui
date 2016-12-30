@@ -1,8 +1,8 @@
 # amazeui
-#注意：此方法仅可在jQuery下使用。
-#解决AmazeUI在IOS下，JS动态给<select data-am-selected>赋值时出现多选的BUG。
-使用方法：
-        $q(selector).val(); //selector: 和jQuery的查找器一样
+#####注意：此方法仅可在jQuery下使用。
+#####解决AmazeUI在IOS下，JS动态给<select data-am-selected>赋值时出现多选的BUG。
+#####使用方法：
+#####        $q(selector).val(); //selector: 和jQuery的查找器一样
         例：
         <select data-am-selected="{btnWidth: '100%', btnSize: 'sm'}" id="gender" name="gender">
           <option value="1">男</option>
