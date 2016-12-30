@@ -3,16 +3,19 @@
 #####解决AmazeUI在IOS下，JS动态给<select data-am-selected>赋值时出现多选的BUG。
 #####使用方法：
 #####        $q(selector).val(); //selector: 和jQuery的查找器一样
-        例：
+####        例：
+
         <select data-am-selected="{btnWidth: '100%', btnSize: 'sm'}" id="gender" name="gender">
           <option value="1">男</option>
           <option value="2">女</option>
         </select>
+
+```javascript
         <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
         <script type=="text/javascript">
           $q("#gender").val("1");
         </script>
-
+```
 
 
 
