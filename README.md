@@ -31,8 +31,8 @@ $q(selector).val(); //selector: jQuery selector, eg: $("#mySelect").val("1");
 ```javascript
 //HTML
 <select data-am-selected="{btnWidth: '100%', btnSize: 'sm'}" id="gender" name="gender">
-  <option value="1">男</option>
-  <option value="2">女</option>
+  <option value="1">Male</option>
+  <option value="2">Female</option>
 </select>
 ```
 ```javascript
